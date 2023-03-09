@@ -1,0 +1,24 @@
+Create a new repository on GitHub. Give it a name that reflects your website, such as "my-awesome-website".
+
+Clone the repository to your local machine using Git. You can do this by running the following command in your terminal:
+
+git clone https://github.com/your-username/my-awesome-website.git
+Move your website files into the repository folder. This might include HTML, CSS, JavaScript, images, and any other assets needed for your website.
+
+Commit your changes and push them to the repository. You can do this by running the following commands in your terminal:
+
+git add .
+git commit -m "Initial commit"
+git push origin main
+
+Make sure your website's main file is named index.html. This is the default file that GitHub Pages looks for when serving your website.
+
+Go to the "Settings" tab of your repository on GitHub.
+
+Scroll down to the "GitHub Pages" section and select "main" as your branch and "root" as your folder. This will tell GitHub Pages to serve your website from the root of your repository.
+
+Click "Save" and wait a few minutes for GitHub Pages to build and deploy your website. You can check the status of the build by going back to the "Settings" tab and looking for the green checkmark next to "GitHub Pages".
+
+Once your website is deployed, you can access it at https://your-username.github.io/my-awesome-website/.
+
+If you need to make changes to your website, simply make them locally, commit them, and push them to the repository. GitHub Pages will automatically rebuild and redeploy your website.
